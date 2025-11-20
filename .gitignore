@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#virtual environment folder name
+myenv/
+
+
 # Distribution / packaging
 .Python
 build/
@@ -205,3 +209,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
