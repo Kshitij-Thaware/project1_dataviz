@@ -73,4 +73,6 @@ git config --global user.email "MY_NAME@example.com"
 # 7b - add, commit, push and pull request with main
 
 #Note - to install packages with correct version you can type in terminal 
-pip install -r requirements.txt
+pip install -r requirements.txt   
+
+
