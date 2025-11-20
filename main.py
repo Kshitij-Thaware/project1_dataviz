@@ -3,6 +3,8 @@ import pandas
 
 st.title('My first python data visualization website')
 
+from services.barchart import display_barchart
+from services.hist import display_histogram
 
 upload_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
@@ -22,7 +24,7 @@ if upload_file is not None:
 
     else:
         st.write('selected columns', selected_col, 'is nominal type')
-
+        
         display_barchart(data[selected_col])
 
          
