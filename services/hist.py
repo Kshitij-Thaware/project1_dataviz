@@ -5,6 +5,10 @@ def display_histogram(column):
     """
     column : dataframe column
     """
-    fig = plt.figure()
+
+
+    figure = plt.figure()
     plt.hist(column, bins=4, edgecolor='black')
-    st.pyplot(fig)
+    st.pyplot(figure)
+
+    # final version

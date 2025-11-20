@@ -5,6 +5,6 @@ def display_barchart(column):
     """
     column: dataframe column
     """
-    fig = plt.figure()
+    figure = plt.figure()
     column.value_counts().plot(kind='bar')
-    st.pyplot(fig)
+    st.pyplot(figure)
